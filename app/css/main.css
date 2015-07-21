@@ -1,0 +1,362 @@
+
+.conteiner {
+	width: 1400px;
+	margin: auto;
+	background-image: url(../img/fon.png);
+}
+.hidden-text {
+	display: none;
+}
+a {
+	text-decoration: none;
+}
+/*HEADER-PAGE*/
+.header-page {
+	height: 119px;
+	background-color: #eff3f7;
+	margin-bottom: 39px;
+}
+.logo {
+	float: left;
+	margin: 39px 0px 0px 99px;
+}
+.socal-list {
+	padding: 0;
+	margin-bottom: 28px;
+}
+.social-block{
+	float: right;
+	margin: 19px 100px 0px 0px;
+}
+.block-for-socal-link {
+	display: inline-block;
+	margin-left: 20px;
+}
+.socal-link {
+	display: block;
+	width: 47px;
+	height: 47px;
+	background-image: url(../img/sprits.png);
+}
+.vk {
+	background-position: -5px -150px;
+}
+.tw {
+	background-position: -5px -102px;
+}
+.fb {
+	background-position: -5px -6px;
+}
+.gh {
+	background-position: -5px -54px;
+}
+.vk:hover {
+	background-position: 52px -150px;
+}
+.tw:hover {
+	background-position: 52px -102px;
+}
+.fb:hover {
+	background-position: 52px -6px;
+}
+.gh:hover {
+	background-position: 52px -54px;
+}
+.gradient-hr {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	height: 5px;
+	border:0;
+	background-image: -webkit-linear-gradient(left, #e7eff3 0%, #20687c 50%, #20687c 51%,#e7eff3 100%);;
+}
+/*HEADER-PAGE END*/
+
+
+/*WRAPPER*/
+.wrapper{
+	width: 960px;
+	margin: auto;
+}
+.navigation-contacts {
+	width: 250px;
+	float: left;
+}
+.main-navigation {
+	background-color: #eff3f7;
+	border-radius: 6px;
+	padding: 0px 10px 0px 10px;
+	margin-bottom: 22px;
+	height: 220px;
+	overflow: hidden;
+}
+.list-by-main-navigation {
+	padding: 0;
+	list-style-type: none;
+	margin: 0;
+}
+.button-by-main-navigation {
+	border-bottom: 3px solid #3ba8c0;
+	height: 70px;
+}
+
+.text-main-navigation {
+	display: inline-block;
+	margin: 26px 0px 0px 26px;
+}
+
+.border-none {
+	border: none;
+}
+.link-by-main-navigation{
+	display: inline-block;
+	width: 250px;
+	height: 76px;
+	color: #959aa8;
+	font-family: "Fira Sans";
+	font-size: 21px;
+	margin-left: -10px;
+	margin-top: -3px;
+}
+.hover {
+	display: inline-block;
+	width: 250px;
+	height: 76px;
+	color: #3ba8c0;
+	font-size: 21px;
+	margin-left: -10px;
+	margin-top: -3px;
+	
+}
+
+.active {
+	background-color: #3ba8c0;
+	color: #ffffff;
+}
+.sting-by-header-contacts {
+	display: inline-block;
+	margin: 10px 0px 0px 18px;
+	font-size: 20px;
+}
+.contacts {
+
+}
+.header-by-contacts {
+	height: 40px;
+	background-color: #3ba8c0;
+	border-radius: 6px 6px 0px 0px;
+	color: #ffffff;
+}
+.mail, .telefon, .skype {
+	height: 25px;
+	width: 25px;
+	display: inline-block;
+	margin: 7px 0px 0px 23px;
+	background-image: url(../img/sprite_contacts.png);
+}
+.block-mail {
+	background-color: #41b9d4;
+}
+.block-telefon {
+	background-color: #48cbe8;
+}
+.block-skype {
+	background-color: #51daf8;
+	border-radius: 0px 0px 6px 6px;
+}
+.mail {
+	background-position: -4px 55px;
+}
+.telefon {
+	background-position: -4px 26px;
+} 
+.skype  {
+	background-position: -4px -2px;
+}
+.text-contacts-string {
+	display: inline-block;
+	position: absolute;
+	margin: 10px 0px 0px 15px;
+	font-size: 17px;
+	color: #ffffff;
+	font-family: "Fira Sans";
+
+
+}
+.text-contacts-string:hover {
+	text-decoration:underline;
+	cursor: pointer;
+}
+.contacts-string {
+	height: 40px;
+}
+.information-about-me {
+	float: right;
+	width: 650px;
+}
+.section-info {
+	border-radius: 6px;
+	background-color: #eff3f7;
+	margin-bottom: 24px;
+	padding-bottom: 1px;
+}
+.header-by-section {
+	height: 70px;
+	margin-bottom: 10px;
+	
+}
+.string-by-header {
+	margin: 0;
+	padding: 15px 30px 21px 19px;
+	font-weight: normal;
+	font-size: 27px;
+	display: inline-block;
+	border-bottom: 3px solid #3ba8c0;
+	color: #3ba8c0;
+	font-family: "Fira Sans";
+}
+.foto {
+	border-radius: 50%;
+	width: 140px;
+	height: 140px;
+	overflow:hidden;
+	margin-left: 56px;
+	border: 5px solid #2aa3bb;
+	float: left;
+	margin-top: 23px;
+}
+.main-info-about-me {
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 21px;
+	margin-top: 0px;
+
+}
+.string-info-about-me {
+	margin-top: 12px;
+}
+.question-info-about-me {
+	display: inline-block;
+	margin-right: 16px;
+	font-family: "Fira Sans";
+	font-weight: bold;
+	font-size: 17px;;
+
+}
+.answer-info-about-me {
+	font-family: "Fira Sans";
+	font-size: 15px;
+}
+.skills {
+	width: 200px;
+	float: right;
+	margin-left: 5px;
+}
+.string-skills {
+	
+}
+.skill-name {
+	display: inline-block;
+	background-image: -webkit-linear-gradient(bottom, #2e8ca2 0%, #2e8ca2 50%, #3ba8c0 51%,#3ba8c0 100%);
+	font-size: 14px;
+	font-family: "Proxima Nova Condensed";
+	padding: 2px 10px 3px 13px;
+	margin: 6px 0px 0px 2px;
+	border-radius: 3px;
+	color: #ffffff;
+}
+.main-info {
+	padding-bottom: 26px;
+}
+.section-list {
+	font-weight: normal;
+	font-size: 17px;
+	margin-bottom: 0px;
+	font-family: "Fira Sans";
+	
+}
+.content-by-section {
+	margin: 22px 0px 0px 16px;
+	list-style-type: none;
+}
+.comment-by-section-list{
+	font-weight: normal;
+	margin: 0;
+	font-size: 15px;
+	font-family: "Fira Sans";
+}
+.string-content-by-section {
+	margin-bottom: 32px;
+}
+.logo-by-section {
+	display: inline-block;
+	float: left;
+	width: 43px;
+	height: 37px;
+	background-image: url(../img/sprits.png);
+	background-repeat: no-repeat;
+	margin-right: 31px;
+}
+.logo-bag {
+	background-position: -4px -206px;
+}
+.logo-head {
+	background-position: -4px -286px;
+}
+.logo-file {
+	background-position: 5px -249px;
+}
+
+/*WRAPPER END*/
+
+/*FOOTER*/
+html,body {
+	height: 100%;
+}
+.conteiner {
+	min-height: 100%;
+	height: auto!important;
+	height: 100%;
+}
+.wrapper{
+
+	padding-bottom: 80px;
+}
+.footer-page {
+ 	height: 80px;
+	margin-top: -80px;
+    background-color: #eff3f7;
+    width: 1400px;
+    margin: auto;
+}
+.lock {
+	width: 33px;
+	height: 34px;
+	float: left;
+	margin-left: 246px;
+	margin-top: 24px;
+
+}
+.link-login {
+	display: block;
+	width: 33px;
+	height: 34px;
+	background-image: url(../img/sprits.png);
+	background-repeat: no-repeat;
+	background-position: 0px -367px;
+
+}
+.link-login:hover {
+	background-position: 0px -325px;
+}
+
+.copyright {
+	display: inline-block;
+	margin-top: 33px;
+	margin-left: 225px;
+	font-family: "Fira Sans";
+	font-size: 13px;
+
+}
+
+/*FOOTER END*/
