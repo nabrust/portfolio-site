@@ -14,7 +14,10 @@ gulp.task("watch", function() {
 	gulp.watch([
 		"app/*.html",
 		"app/js/**/*.js",
-		"app/css/**/*.css"
+		"app/css/**/*.css",
+		"app/my_work/*.html",
+		"app/my_work/js/**/*.js",
+		"app/my_work/css/**/*.css"
 	]) .on("change", browserSync.reload);
 });
 
