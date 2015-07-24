@@ -17,7 +17,10 @@ gulp.task("watch", function() {
 		"app/css/**/*.css",
 		"app/my_work/*.html",
 		"app/my_work/js/**/*.js",
-		"app/my_work/css/**/*.css"
+		"app/my_work/css/**/*.css",
+		"app/contact_me/*.html",
+		"app/contact_me/js/**/*.js",
+		"app/contact_me/css/**/*.css"
 	]) .on("change", browserSync.reload);
 });
 
