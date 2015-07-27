@@ -59,3 +59,105 @@
 	text-decoration:underline;
 	font-family: "Fira Sans";
 }
+/****POPUP****/
+.popup_by_add_site {
+	width: 400px;
+	margin: auto;
+	background-color: #edf8fc;
+	border-radius: 6px;
+	padding-bottom: 15px;
+	display: none;
+}
+.header_bu_popup {
+	height: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	border-radius: 6px 6px 0px 0px;
+	background-image: -webkit-linear-gradient(top, #48cbe8 0%, #48cbe8 90%, #51daf8 91%,#51daf8 100%);
+}
+#input_bu_popup, #text_project_description {
+	display: block;
+	width: 310px;
+	border-width: 1px;
+	border-color: rgb(249, 126, 118);
+	border-style: solid;
+	border-radius: 4px;
+	background-color: rgba(249, 126, 118, 0.302);
+}
+#input_bu_popup_project_img{
+	display: block;
+	width: 265px;
+	border-width: 1px;
+	border-color: rgb(249, 126, 118);
+	border-style: solid;
+	border-radius: 4px 0px 0px 4px;
+	background-color: rgba(249, 126, 118, 0.302);
+	height: 40px;
+	color: #48cbe8;
+	padding-left: 10px;
+	float: left;
+	border-right: none;
+}
+#input_bu_popup::-webkit-input-placeholder, #input_bu_popup_project_img::-webkit-input-placeholder {
+	color:#48cbe8; 
+}
+#input_bu_popup {
+	height: 40px;
+	color: #48cbe8;
+	padding-left: 10px;
+}
+#text_project_description {
+	height: 115px;
+	padding-left: 10px;
+}
+.box_input_bu_popup {
+	margin: auto;
+	margin-top: 10px;
+	width: 320px;
+
+}
+.label_by_box_input_bu_popup {
+	margin-left: 10px;
+	font-family: "Fira Sans";
+	font-size: 20px;
+	color: #959aa8;
+
+}
+.text_by_header_popup {
+	font-family: "Fira Sans";
+	font-size: 27px;
+	color: #edf8fc;
+	float: left;
+	
+}
+.box_by_img_download {
+	width: 44px;
+    height: 44px;
+  	background-image: url(../img/sprite_by_popup.png);
+    background-repeat: no-repeat;
+    background-position: -3px -50px;
+    display: block;
+  	position: relative;
+  	float: right;
+  	border-radius: 0px 4px 4px 0px;
+  	background-color: #48cbe8;
+}
+.box_dy_close_img {
+	width: 38px;
+    height: 38px;
+    background-image: url(../img/sprite_by_popup.png);
+    background-repeat: no-repeat;
+    background-position: -5px -5px;
+    float: right;
+}
+.add_site {
+	width: 226px;
+	height: 51px;
+}
+.box_by_button {
+	margin: auto;
+	width: 226px;
+	margin-top: 15px;
+}
+/*POPUP END*/

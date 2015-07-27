@@ -10,8 +10,6 @@
 	*zoom: 1;
 }
 .conteiner {
-	width: 1400px;
-	margin: auto;
 	background-image: url(../img/fon.png);
 }
 .hidden-text {
@@ -78,7 +76,7 @@ a {
 	padding: 0;
 	height: 5px;
 	border:0;
-	background-image: -webkit-linear-gradient(left, #e7eff3 0%, #20687c 50%, #20687c 51%,#e7eff3 100%);;
+	background-image: -webkit-linear-gradient(left, #e7eff3 0%, #20687c 50%, #20687c 51%,#e7eff3 100%);
 }
 /*HEADER-PAGE END*/
 
@@ -123,8 +121,8 @@ a {
 	width: 250px;
 	height: 76px;
 	color: #959aa8;
-	font-family: "Fira Sans";
-	font-size: 21px;
+	font-weight: 300;
+	font-size: 23px;	
 	margin-left: -10px;
 	margin-top: -3px;
 }
@@ -133,7 +131,7 @@ a {
 	width: 250px;
 	height: 76px;
 	color: #3ba8c0;
-	font-size: 21px;
+	font-size: 23px;
 	margin-left: -10px;
 	margin-top: -3px;
 	
@@ -149,6 +147,7 @@ a {
 	font-size: 20px;
 }
 .contacts {
+	font-weight: 300;
 
 }
 .header-by-contacts {
@@ -189,8 +188,6 @@ a {
 	margin: 10px 0px 0px 15px;
 	font-size: 17px;
 	color: #ffffff;
-	font-family: "Fira Sans";
-
 
 }
 .text-contacts-string:hover {
@@ -223,7 +220,6 @@ a {
 	display: inline-block;
 	border-bottom: 3px solid #3ba8c0;
 	color: #3ba8c0;
-	font-family: "Fira Sans";
 }
 .foto {
 	border-radius: 50%;
@@ -246,16 +242,19 @@ a {
 	margin-top: 12px;
 }
 .question-info-about-me {
+	color: rgb(88, 105, 122);
+
 	display: inline-block;
-	margin-right: 16px;
-	font-family: "Fira Sans";
-	font-weight: bold;
+	margin-right: 17px;
+	font-weight: 500;
 	font-size: 17px;;
+	float: left;
 
 }
 .answer-info-about-me {
-	font-family: "Fira Sans";
+	display: inline-block;
 	font-size: 15px;
+	max-width: 200px;
 }
 .skills {
 	width: 200px;
@@ -268,8 +267,9 @@ a {
 .skill-name {
 	display: inline-block;
 	background-image: -webkit-linear-gradient(bottom, #2e8ca2 0%, #2e8ca2 50%, #3ba8c0 51%,#3ba8c0 100%);
-	font-size: 14px;
+	font-size: 15px;
 	font-family: "Proxima Nova Condensed";
+	font-weight: normal;
 	padding: 2px 10px 3px 13px;
 	margin: 6px 0px 0px 2px;
 	border-radius: 3px;
@@ -282,7 +282,6 @@ a {
 	font-weight: normal;
 	font-size: 17px;
 	margin-bottom: 0px;
-	font-family: "Fira Sans";
 	
 }
 .content-by-section {
@@ -290,30 +289,55 @@ a {
 	list-style-type: none;
 }
 .comment-by-section-list{
-	font-weight: normal;
+	font-weight: 300;
 	margin: 0;
 	font-size: 15px;
-	font-family: "Fira Sans";
+}
+.comment-by-section-list, .section-list {
+	margin-left: 50px;
 }
 .string-content-by-section {
 	margin-bottom: 32px;
+	position: relative;
 }
 .logo-by-section {
 	display: inline-block;
 	float: left;
-	width: 43px;
-	height: 37px;
 	background-image: url(../img/sprits.png);
 	background-repeat: no-repeat;
 	margin-right: 31px;
 }
 .logo-bag {
+	content: "";
+	background-repeat: no-repeat;
+	display: block;
+	width: 43px;
+	height: 37px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%) translateX(-50%);
 	background-position: -4px -206px;
 }
 .logo-head {
+	content: "";
+	background-repeat: no-repeat;
+	display: block;
+	width: 43px;
+	height: 37px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%) translateX(-50%);
 	background-position: -4px -286px;
 }
 .logo-file {
+	content: "";
+	background-repeat: no-repeat;
+	display: block;
+	width: 43px;
+	height: 37px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%) translateX(-50%);
 	background-position: 5px -249px;
 }
 
@@ -322,6 +346,8 @@ a {
 /*FOOTER*/
 html,body {
 	height: 100%;
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 400;
 }
 .conteiner {
 	min-height: 100%;
@@ -336,8 +362,6 @@ html,body {
  	height: 80px;
 	margin-top: -80px;
     background-color: #eff3f7;
-    width: 1400px;
-    margin: auto;
 }
 .lock {
 	width: 33px;
@@ -363,9 +387,11 @@ html,body {
 .copyright {
 	display: inline-block;
 	margin-top: 33px;
-	margin-left: 225px;
-	font-family: "Fira Sans";
 	font-size: 13px;
+	float: right;
+	margin-right: 30%; 
+
+
 
 }
 
