@@ -1,0 +1,56 @@
+html {
+	color: #4a545d;
+}
+.label_by_box_login	{
+	margin-left: 10px;
+	font-family: "Fira Sans";
+	font-size: 20px;
+	color: #959aa8;}
+.box_by_input {
+	margin: auto;
+	margin-top: 10px;
+	width: 320px;
+}
+.text_by_header_login_form {
+	font-family: "Fira Sans";
+	font-size: 27px;
+	color: #edf8fc;
+	float: left;
+	
+}
+.header_login_form {
+	height: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	border-radius: 6px 6px 0px 0px;
+	background-image: -webkit-linear-gradient(top, #48cbe8 0%, #48cbe8 90%, #51daf8 91%,#51daf8 100%);
+}
+.container_by_login_form {
+	width: 400px;
+	margin: auto;
+	background-color: #edf8fc;
+	border-radius: 6px;
+	padding-bottom: 15px;
+}
+ #input_bu_login, #input_by_password {
+ 	display: block;
+	width: 310px;
+	border-width: 1px;
+	border-color: rgb(249, 126, 118);
+	border-style: solid;
+	border-radius: 4px;
+	background-color: rgba(249, 126, 118, 0.302);
+ }
+ .box_by_button {
+ 	margin-top: 15px;
+ 	margin: auto;
+ 	width: 226px;
+	height: 51px;
+	margin-top: 15px;
+ }
+  .button_login {
+  	width: 226px;
+	height: 51px;
+	
+  }

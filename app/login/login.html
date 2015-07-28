@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="../bower/normalize.css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="../fonts/fira/fira.css">
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/my_work.css">
+	<link rel="stylesheet" href="css/login.css">
 </head>
 <body>
 <div class="conteiner">	
@@ -31,10 +31,22 @@
 
 	<!--WRAPPER-->
 	<div class="wrapper clearfix">
-		
-
-
-	</div>
+		<div class="container_by_login_form">
+			<header class="header_login_form">
+				<span class="text_by_header_login_form">Авторизация</span>
+			</header>
+			<div class="box_by_input">
+				<label class="label_by_box_login" for="login">Логин</label>
+				<input type="text" id="input_bu_login" name="login" placeholder="Введите логин">
+			</div>
+			<div class="box_by_input clearfix">
+				<label class="label_by_box_input_by_password" for="password">Пароль</label>
+				<input type="text" id="input_by_password" name="password" placeholder="Введите пароль">
+			</div>
+			<div class="box_by_button">
+				<button class="button_login">Войти</button>
+			</div>
+		</div>
 	</div>
 </div>
 	<footer class="footer-page">

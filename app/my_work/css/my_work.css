@@ -4,60 +4,99 @@
 	min-height: 500px;
 	background-color: #EFF3F7;
 	border-radius: 6px;
-	padding-left: 5px;
-	padding-top: 5px;
 	padding-bottom: 5px;
+	margin-bottom: 30px;
 }
 .header_by_content{
 	height: 70px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
-.site_box {
-	width: 200px;
-	min-height: 200px;
-	display: inline-block;
-	margin-left: 4px;
-	margin-top: 4px;
-	margin-bottom: 4px;
-	border: 3px solid #3ba8c0;
-	border-radius: 3px;
-}
-.box_by_img, .box_screenshot_by_blank {
-	width: 200px;
-	height: 200px;
-}
-.footer_by_site_box {
-	height: 21px;
-}
-.box_screenshot_by_blank {
-	position: relative;
-}
-
-.box_screenshot_by_blank:before {
-	content: "";
-	background-image: url(../img/add_img.png);
-	background-repeat: no-repeat;
-	display: block;
+.img_add_new_site {
 	width: 32px;
-	height: 32px;
+  	height: 32px;
+  	background-image: url(../img/add_img.png);
+  	margin: auto;
+  	
+ }
+ .conainer_by_box_new_site {
+ 	display: inline-block;
+ 	content: "";
 	position: absolute;
+	left: 50%;
 	top: 50%;
 	transform: translateY(-50%) translateX(-50%);
-	left: 50%;
-}
-.string_site_box {
-	display: block;
-}
-.link_by_site {
-	display: block;
-	text-align: center;
-	color:#3ba8c0;
-	font-family: "Fira Sans";
+	background-position: -4px -206px;
+ }
+ .link_add_site {
+	color: #3ba8c0;
 	font-size: 13px;
+ }
+ .box_by_new_site {
+ 	width: 180px;
+  	height: 127px;
+  	background-color: #edf8fc;
+  	position: relative;
+  	display: inline-block;
+  	border: dashed 1px rgb(59, 168, 192);
+  	border-radius: 6px;
+  	margin: 15px;
+
+ }
+ .box_by_site_info {
+ 	float: left;
+  	margin: 15px;
+ 	width: 185px;
+ }
+.site_image {
+	border: 2px rgb(59, 168, 192) solid;
+ 	border-radius: 6px;
 }
-.link_by_site:hover {
-	text-decoration:underline;
+.box_by_img_site {
+	height: 131px;
+
+}
+.background_hover {
+	display: none;
+	content: "";
+	position: absolute;
+	width: 185px;
+	height: 131px;
+	transform: translateY(-139px);
+	background-color: rgba(1, 108, 164, 0.749);
+ 	border-radius: 6px;
+	
+}
+.site_name {
+	display: inline-block;
+ 	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	background-position: -4px -206px;
+	border: 2.5px rgb(239, 243, 247) solid;
+	border-radius: 4px;
+	color: rgb(239, 243, 247);
+
+}
+.background_hover_on {
+	display: block; 
+}
+.box_by_link_and_site_info {
+	text-align: center;
+	margin: auto;
+}
+.link_to_site {
+	font-size: 13px;
 	font-family: "Fira Sans";
+	color: rgb(59, 168, 192);
+	font-style: italic;
+
+}
+.info_by_site_string {
+	display: block;
+	font-size: 15px;
+	color: rgb(74, 84, 93);
 }
 /****POPUP****/
 .popup_by_add_site {

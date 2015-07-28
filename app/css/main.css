@@ -242,8 +242,8 @@ a {
 	margin-top: 12px;
 }
 .question-info-about-me {
-	color: rgb(88, 105, 122);
-
+	color: #4a545d;
+	
 	display: inline-block;
 	margin-right: 17px;
 	font-weight: 500;
@@ -255,6 +255,7 @@ a {
 	display: inline-block;
 	font-size: 15px;
 	max-width: 200px;
+	color: #4a545d;
 }
 .skills {
 	width: 200px;
@@ -282,6 +283,7 @@ a {
 	font-weight: normal;
 	font-size: 17px;
 	margin-bottom: 0px;
+	color: #4a545d;
 	
 }
 .content-by-section {
@@ -292,6 +294,7 @@ a {
 	font-weight: 300;
 	margin: 0;
 	font-size: 15px;
+	color: #4a545d;
 }
 .comment-by-section-list, .section-list {
 	margin-left: 50px;
@@ -390,6 +393,7 @@ html,body {
 	font-size: 13px;
 	float: right;
 	margin-right: 30%; 
+	color: #4a545d;
 
 
 
