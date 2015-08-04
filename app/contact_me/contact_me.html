@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="../fonts/fira/fira.css">
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/contact_me.css">
+	<link rel="stylesheet" href="../bower/qtip2/jquery.qtip.css">
 </head>
 <body>
 <div class="conteiner clearefix">
@@ -49,13 +50,13 @@
 					<label for="name" class="input_label">
 						Имя
 					</label>
-					<input type="text" id="input_name" name="name" placeholder="Введи Имя">
+					<input type="text" id="input_name" name="name" placeholder="Введи Имя" title="введите имя">
 				</div>
 				<div class="box_for_input_email">
 					<label for="email" class="input_label">
 						Email
 					</label>
-					<input type="email" id="input_email" name="email" placeholder="Введите адрес">
+					<input type="email" id="input_email" name="email" placeholder="Введите адрес" title="введите Email">
 				</div>
 				<div class="box_for_input_message">
 					<label for="message" class="input_label">
@@ -70,7 +71,7 @@
 					</label>
 					<div class="code_capcha">
 					</div>
-					<input type="text" id="input_capcha" name="capcha" placeholder="Введите код с картинки">
+					<input type="text" id="input_capcha" name="capcha" placeholder="Введите код с картинки" title="введите код">
 				</div>
 				<div class="box_by_button clearfix">
 					<button class="button_send">
@@ -87,14 +88,15 @@
 	<footer class="footer-page">
 		<hr class="gradient-hr">
 		<div class="lock">
-			<a href="" class="link-login"><span class="hidden-text">Авторизация<span class="hidden-text"></span></span></a>
+			<a href="../login/login.html" class="link-login"><span class="hidden-text">Авторизация<span class="hidden-text"></span></span></a>
 		</div>
 		<div class="
 		copyright">
-				<span cla
-					ss="copyright-sting">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его.</span>
+				<span class="copyright-sting">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его.</span>
 		</div>
+	
 	<script type="text/javascript" src="../bower/jquery/jquery.js"></script>
 	<script type="text/javascript" src="../js/main.js"></script>
+	<script type="text/javascript" src="../bower/qtip2/jquery.qtip.js"></script>
 </body>
 </html>

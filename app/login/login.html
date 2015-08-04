@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="../fonts/fira/fira.css">
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
 	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="../bower/qtip2/jquery.qtip.css">
 </head>
 <body>
 <div class="conteiner">	
@@ -31,17 +32,17 @@
 
 	<!--WRAPPER-->
 	<div class="wrapper clearfix">
-		<div class="container_by_login_form">
+		<div class="container_by_login_form clearfix">
 			<header class="header_login_form">
-				<span class="text_by_header_login_form">Авторизация</span>
+				<span class="text_by_header_login_form">Авторизуйтесь</span>
 			</header>
 			<div class="box_by_input">
 				<label class="label_by_box_login" for="login">Логин</label>
-				<input type="text" id="input_bu_login" name="login" placeholder="Введите логин">
+				<input type="text" title="введите логин" id="input_bu_login" name="login" placeholder="Введите логин">
 			</div>
 			<div class="box_by_input clearfix">
 				<label class="label_by_box_input_by_password" for="password">Пароль</label>
-				<input type="text" id="input_by_password" name="password" placeholder="Введите пароль">
+				<input type="text" title="введите пароль" id="input_by_password" name="password" placeholder="Введите пароль">
 			</div>
 			<div class="box_by_button">
 				<button class="button_login">Войти</button>
@@ -56,5 +57,7 @@
 		</div>
 	<script type="text/javascript" src="../bower/jquery/jquery.js"></script>
 	<script type="text/javascript" src="../js/main.js"></script>
+	<script type="text/javascript" SRC="js/login.js"></script>
+	<script type="text/javascript" src="../bower/qtip2/jquery.qtip.js"></script>
 </body>
 </html>

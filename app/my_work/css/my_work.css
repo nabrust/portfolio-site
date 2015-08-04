@@ -27,7 +27,7 @@
 	transform: translateY(-50%) translateX(-50%);
 	background-position: -4px -206px;
  }
- .link_add_site {
+ #link_add_site {
 	color: #3ba8c0;
 	font-size: 13px;
  }
@@ -98,105 +98,127 @@
 	font-size: 15px;
 	color: rgb(74, 84, 93);
 }
-/****POPUP****/
-.popup_by_add_site {
+/** POPUP */
+.wrapper_by_popup {
+	display: none;
 	width: 400px;
 	margin: auto;
-	background-color: #edf8fc;
-	border-radius: 6px;
+	background-color: rgb(239, 243, 247);
+	box-shadow: 0px 4px 6.86px 0.14px rgba(13, 16, 7, 0.29);
+	border-radius: 4px;
 	padding-bottom: 15px;
-	display: none;
+	margin-bottom: 30px;
 }
-.header_bu_popup {
+.header_by_popup {
 	height: 50px;
+	border-radius: 6px 6px 0px 0px;
+	background-image: -webkit-linear-gradient(top, #48cbe8 0%, #48cbe8 90%, #51daf8 91%,#51daf8 100%);
+	position: relative;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 10px;
-	border-radius: 6px 6px 0px 0px;
-	background-image: -webkit-linear-gradient(top, #48cbe8 0%, #48cbe8 90%, #51daf8 91%,#51daf8 100%);
 }
-#input_bu_popup, #text_project_description {
-	display: block;
-	width: 310px;
-	border-width: 1px;
-	border-color: rgb(249, 126, 118);
-	border-style: solid;
-	border-radius: 4px;
-	background-color: rgba(249, 126, 118, 0.302);
+.string_by_header {
+	font-family: "Fira Sans";
+	font-size: 25px;
+	font-weight: 300;
+	color: rgb(255, 255, 255);
+	display: inline-block;
+ 	content: "";
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
-#input_bu_popup_project_img{
-	display: block;
-	width: 265px;
-	border-width: 1px;
-	border-color: rgb(249, 126, 118);
-	border-style: solid;
-	border-radius: 4px 0px 0px 4px;
-	background-color: rgba(249, 126, 118, 0.302);
-	height: 40px;
-	color: #48cbe8;
-	padding-left: 10px;
-	float: left;
-	border-right: none;
+.box_by_close {
+	width: 37px;
+ 	height: 38px;
+	background-image: url(../img/sprite_by_popup.png);
+	background-repeat: no-repeat;
+	background-position: -1px -32px;
+	display: inline-block;
+ 	content: "";
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 20px;
+	cursor: pointer;
 }
-#input_bu_popup::-webkit-input-placeholder, #input_bu_popup_project_img::-webkit-input-placeholder {
-	color:#48cbe8; 
-}
-#input_bu_popup {
-	height: 40px;
-	color: #48cbe8;
-	padding-left: 10px;
-}
-#text_project_description {
-	height: 115px;
-	padding-left: 10px;
-}
-.box_input_bu_popup {
+.box_by_input_popup {
 	margin: auto;
 	margin-top: 10px;
-	width: 320px;
-
+	text-align: left;
+	width: 317px;
 }
-.label_by_box_input_bu_popup {
-	margin-left: 10px;
-	font-family: "Fira Sans";
-	font-size: 20px;
-	color: #959aa8;
-
+#name_by_project, #URL_by_project {
+	display: block;
+	width: 281px;
+  	height: 39px;
+	border: 1px rgb(72, 203, 232) solid;
+	border-radius: 4px;
+	background-color: rgb(255, 255, 255);
+	margin:auto;
+	padding: 0px 19px 0px 19px;
 }
-.text_by_header_popup {
-	font-family: "Fira Sans";
-	font-size: 27px;
-	color: #edf8fc;
-	float: left;
-	
+ #description {
+	border: solid rgb(72, 203, 232) 1px;
+	border-radius: 4px;
+	background-color: rgb(251, 252, 253);
+	width: 281px;
+	max-width:281px; 
+ 	height: 109px;
+ 	display: block;
+ 	margin: auto;
+ 	padding: 10px 19px 0px 19px;
 }
-.box_by_img_download {
-	width: 44px;
-    height: 44px;
-  	background-image: url(../img/sprite_by_popup.png);
-    background-repeat: no-repeat;
-    background-position: -3px -50px;
-    display: block;
-  	position: relative;
-  	float: right;
-  	border-radius: 0px 4px 4px 0px;
-  	background-color: #48cbe8;
-}
-.box_dy_close_img {
-	width: 38px;
-    height: 38px;
-    background-image: url(../img/sprite_by_popup.png);
-    background-repeat: no-repeat;
-    background-position: -5px -5px;
-    float: right;
-}
-.add_site {
-	width: 226px;
-	height: 51px;
-}
-.box_by_button {
-	margin: auto;
-	width: 226px;
+.box_by_button_popup {
+	margin-top: 15px;
+ 	margin: auto;
+ 	width: 139px;
 	margin-top: 15px;
 }
-/*POPUP END*/
+#button_add {
+	border:none;
+  	overflow: hidden;
+  	width: 139px;
+ 	height: 33px;
+	background-color: rgb(72, 203, 232);
+	border-radius: 8px;
+	color: rgb(246, 246, 246);
+	font-size: 19px;
+	border-bottom: 2px solid rgb(104, 123, 143);
+}
+ #button_add:hover{
+ 	border-bottom: none;
+ }
+ #button_add:active {
+ 	border-top: 2px solid rgb(104, 123, 143);
+ }
+ .icon_by_download {
+ 	position: absolute;
+ 	top: 0px;
+ 	right: 0px;
+ 	width: 38px;
+ 	height: 39px;
+ 	border-radius: 0px 4px 4px 0px;
+	background-image: url(../img/sprite_by_popup.png);
+ 	background-position: -2px 2px;
+ 	border: 1px rgb(72, 203, 232) solid;
+ 	cursor: pointer;
+
+ }
+ .box_by_download {
+	background-color: #48CBE8;
+	position: relative;
+	border-radius: 4px;
+ }
+ #picture_by_project {
+ 	width: 239px;
+ 	display: inline-block;
+  	height: 39px;
+	border: 1px rgb(72, 203, 232) solid;
+	border-radius: 4px 0px 0px 4px;
+	background-color: rgb(255, 255, 255);
+	padding: 0px 19px 0px 19px;
+	left: 0px;
+ }
+/** POPUP END*/

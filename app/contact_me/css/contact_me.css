@@ -85,11 +85,11 @@
 
 }
 #input_name, #input_email, #text_message, #input_capcha{
-	height: 22px;
+	height: 39px;
 	width: 172px;
 	border: 1px solid rgb(72, 203, 232);
 	border-radius: 3px;
-	padding: 9px;
+	padding: 0px 9px 0px 9px;
 }
 .box_by_capcha {
 	position: relative;

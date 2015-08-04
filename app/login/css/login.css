@@ -1,56 +1,83 @@
 html {
 	color: #4a545d;
 }
-.label_by_box_login	{
-	margin-left: 10px;
+.label_by_box_login, .label_by_box_input_by_password	{
 	font-family: "Fira Sans";
-	font-size: 20px;
-	color: #959aa8;}
+	font-size: 36px;
+	color: rgb(149, 154, 168);
+}
 .box_by_input {
 	margin: auto;
 	margin-top: 10px;
-	width: 320px;
+	text-align: center;
 }
 .text_by_header_login_form {
 	font-family: "Fira Sans";
-	font-size: 27px;
-	color: #edf8fc;
-	float: left;
+	font-size: 40px;
+	font-weight: 300;
+	color: rgb(255, 255, 255);
+	display: inline-block;
+ 	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateY(-50%) translateX(-50%);
 	
 }
 .header_login_form {
-	height: 50px;
+	height: 107px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 10px;
 	border-radius: 6px 6px 0px 0px;
 	background-image: -webkit-linear-gradient(top, #48cbe8 0%, #48cbe8 90%, #51daf8 91%,#51daf8 100%);
+	position: relative;
 }
 .container_by_login_form {
-	width: 400px;
+	width: 590px;
 	margin: auto;
-	background-color: #edf8fc;
-	border-radius: 6px;
+	background-color: rgb(239, 243, 247);
+	box-shadow: 0px 4px 6.86px 0.14px rgba(13, 16, 7, 0.29);
+	border-radius: 4px;
 	padding-bottom: 15px;
+	margin-bottom: 30px;
 }
  #input_bu_login, #input_by_password {
  	display: block;
-	width: 310px;
-	border-width: 1px;
-	border-color: rgb(249, 126, 118);
-	border-style: solid;
+	width: 384px;
+	height: 60px;
+	border: 1px rgb(72, 203, 232) solid;
 	border-radius: 4px;
-	background-color: rgba(249, 126, 118, 0.302);
+	background-color: rgb(255, 255, 255);
+	margin:auto;
+	padding: 0px 19px 0px 19px;
  }
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	font-size: 17px;
+	color: rgb(72, 203, 232);	
+}
  .box_by_button {
  	margin-top: 15px;
  	margin: auto;
  	width: 226px;
-	height: 51px;
 	margin-top: 15px;
  }
   .button_login {
+  	border:none;
+  	overflow: hidden;
+  	margin-top: 34px; 
+  	margin-bottom: 23px;
   	width: 226px;
 	height: 51px;
-	
+	background-color: rgb(72, 203, 232);
+	border-radius: 8px;
+	color: rgb(246, 246, 246);
+	font-size: 36px;
+	border-bottom: 2px solid rgb(104, 123, 143);
   }
+ .button_login:hover{
+ 	border-bottom: none;
+ }
+ .button_login:active {
+ 	border-top: 2px solid rgb(104, 123, 143);
+ }
