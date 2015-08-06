@@ -141,51 +141,56 @@
 					</div>
 				</biv>
 				<div class="box_by_new_site">
+					<a href="#" id="link_add_site">
 					<div class="conainer_by_box_new_site">
-						<div class="img_add_new_site">
-						</div>
-						<a href="#" id="link_add_site">Добавить сайт</a>
+						<div class="img_add_new_site"></div>
+						Добавить
 					</div>
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!--POPUP-->
-	<div class="wrapper_by_popup clearfix">
-	<header class="header_by_popup">
-		<span class="string_by_header">Добавление проекта</span>
-		<div class="box_by_close b-close"></div>
-	</header>
-		<div class="box_by_input_popup">
-			<label class="label_by_input_popup" for="name_by_project" >
-				Название проекта
-			</label>
-			<input type="text" id="name_by_project" name="name_by_project" placeholder="Введите название">
-		</div>
-		<div class="box_by_input_popup clearfix">
-			<label class="label_by_input_popup" for="picture_by_project">
-				Картинка проекта
-			</label>
-			<div class="box_by_download">
-				<input type="text" id="picture_by_project" name="picture_by_project" placeholder="Загрузите изображение">
-			<div class="icon_by_download"></div>
+	<div id="new_project">
+		<form id="wrapper_by_popup">
+		<header class="header_by_popup">
+			<span class="string_by_header">Добавление проекта</span>
+			<div class="box_by_close b-close"></div>
+		</header>
+			<div class="server-mes error-mes"></div>
+        	<div class="server-mes success-mes"></div>
+			<div class="box_by_input_popup">
+				<label class="label_by_input_popup" for="name_by_project" >
+					Название проекта
+				</label>
+				<input type="text" id="name_by_project" name="name_by_project" placeholder="Введите название">
 			</div>
-		</div>
-		<div class="box_by_input_popup">
-			<label class="label_by_input_popup" for="URL_by_project">
-				URL проекта
-			</label>
-			<input type="text" id="URL_by_project" name="URL_by_project" placeholder="Добавьте ссылку">
-		</div>
-		<div class="box_by_input_popup">
-			<label class="label_by_input_popup" for="description">
-				Описание проекта
-			</label>
-			<textarea name="description" id="description" placeholder="Пара слов о проекте"></textarea>
-		</div>
-		<div class="box_by_button_popup">
-				<button id="button_add">Добавить</button>
-		</div>
+			<div class="box_by_input_popup clearfix">
+				<label class="label_by_input_popup" for="picture_by_project">
+					Картинка проекта
+				</label>
+				<div class="box_by_download">
+					<input type="text" id="picture_by_project" name="picture_by_project" placeholder="Загрузите изображение">
+				<div class="icon_by_download"></div>
+				</div>
+			</div>
+			<div class="box_by_input_popup">
+				<label class="label_by_input_popup" for="URL_by_project">
+					URL проекта
+				</label>
+				<input type="text" id="URL_by_project" name="URL_by_project" placeholder="Добавьте ссылку">
+			</div>
+			<div class="box_by_input_popup">
+				<label class="label_by_input_popup" for="description">
+					Описание проекта
+				</label>
+				<textarea name="description" id="description" placeholder="Пара слов о проекте"></textarea>
+			</div>
+			<div class="box_by_button_popup">
+					<button type="submit" class="button_add">Добавить</button>
+			</div>
+		</form>
 	</div>
 	<!--POPUP END-->
 </div>

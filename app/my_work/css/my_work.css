@@ -28,7 +28,10 @@
 	background-position: -4px -206px;
  }
  #link_add_site {
+ 	display: block;
 	color: #3ba8c0;
+	width: 100%;
+	height: 100%;
 	font-size: 13px;
  }
  .box_by_new_site {
@@ -43,8 +46,10 @@
 
  }
  .box_by_site_info {
- 	float: left;
-  	margin: 15px;
+ 	display: inline-block;
+ 	position: relative;
+  	margin: 14px;
+  	vertical-align: top;
  	width: 185px;
  }
 .site_image {
@@ -99,8 +104,10 @@
 	color: rgb(74, 84, 93);
 }
 /** POPUP */
-.wrapper_by_popup {
+#new_project {
 	display: none;
+}
+#wrapper_by_popup {
 	width: 400px;
 	margin: auto;
 	background-color: rgb(239, 243, 247);
@@ -145,6 +152,7 @@
 }
 .box_by_input_popup {
 	margin: auto;
+	position: relative;
 	margin-top: 10px;
 	text-align: left;
 	width: 317px;
@@ -158,6 +166,11 @@
 	background-color: rgb(255, 255, 255);
 	margin:auto;
 	padding: 0px 19px 0px 19px;
+	color: rgb(74, 84, 93);
+	font-size: 15px;
+	font-family: "Fira Sans";
+	font-weight: 400;
+
 }
  #description {
 	border: solid rgb(72, 203, 232) 1px;
@@ -176,7 +189,7 @@
  	width: 139px;
 	margin-top: 15px;
 }
-#button_add {
+.button_add {
 	border:none;
   	overflow: hidden;
   	width: 139px;
@@ -187,10 +200,10 @@
 	font-size: 19px;
 	border-bottom: 2px solid rgb(104, 123, 143);
 }
- #button_add:hover{
+ .button_add:hover{
  	border-bottom: none;
  }
- #button_add:active {
+ .button_add:active {
  	border-top: 2px solid rgb(104, 123, 143);
  }
  .icon_by_download {
@@ -221,4 +234,26 @@
 	padding: 0px 19px 0px 19px;
 	left: 0px;
  }
+ .server-mes{
+	border-radius: 4px;
+	border: 1px solid;
+	font-size: 12px;
+	width: 318px;
+	padding: 6px 12px;
+	margin-bottom: 6px;	
+	display: none;
+	box-sizing: border-box;
+	margin: auto;
+	
+}
+.error-mes{	
+	background-color: #fad2d1;
+	border-color: #f97e76;
+	color: #f97e76;	
+}
+.success-mes{
+	background-color: #b8e1ce;
+	border-color: #49bb7b;
+	color: #49bb7b;
+}
 /** POPUP END*/

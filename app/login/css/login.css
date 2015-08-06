@@ -41,6 +41,7 @@ html {
 	border-radius: 4px;
 	padding-bottom: 15px;
 	margin-bottom: 30px;
+	margin-top: 40px;
 }
  #input_bu_login, #input_by_password {
  	display: block;
@@ -81,3 +82,4 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
  .button_login:active {
  	border-top: 2px solid rgb(104, 123, 143);
  }
+
