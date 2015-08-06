@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
 	<link rel="stylesheet" href="../login/css/login.css">
 	<link rel="stylesheet" type="text/css" href="css/my_work.css">
-	
+	<link rel="stylesheet" href="css/jquery.customFile.css">
 </head>
 <body>
 <div class="conteiner">
@@ -170,10 +170,7 @@
 				<label class="label_by_input_popup" for="picture_by_project">
 					Картинка проекта
 				</label>
-				<div class="box_by_download">
-					<input type="text" id="picture_by_project" name="picture_by_project" placeholder="Загрузите изображение">
-				<div class="icon_by_download"></div>
-				</div>
+				<input type="file" id="picture_by_project" name="picture_by_project" placeholder="Загрузите изображение" multiple>
 			</div>
 			<div class="box_by_input_popup">
 				<label class="label_by_input_popup" for="URL_by_project">
@@ -207,5 +204,7 @@
 	<script type="text/javascript" src="js/my_work.js"></script>
 	<script src="../bower/bpopup/jquery.bpopup.js"></script>
 	<script src="js/new_project.js"></script>
+	<script src="js/jquery.customFile.js"></script>
+
 </body>
 </html>

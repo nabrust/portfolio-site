@@ -137,11 +137,11 @@
 	transform: translateY(-50%);
 }
 .box_by_close {
-	width: 37px;
- 	height: 38px;
+	width: 25px;
+ 	height: 25px;
 	background-image: url(../img/sprite_by_popup.png);
+	background-position: -5px -39px;
 	background-repeat: no-repeat;
-	background-position: -1px -32px;
 	display: inline-block;
  	content: "";
 	position: absolute;
@@ -157,7 +157,7 @@
 	text-align: left;
 	width: 317px;
 }
-#name_by_project, #URL_by_project {
+#name_by_project, #URL_by_project, #picture_by_project {
 	display: block;
 	width: 281px;
   	height: 39px;
@@ -170,8 +170,59 @@
 	font-size: 15px;
 	font-family: "Fira Sans";
 	font-weight: 400;
+}
+/*Загрузка изображениея*/
+.customfile-container * {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+.customfile-wrap {
+	width: 327px;
+  	padding: 0;
+ }
+
+.customfile-filename,
+.customfile-upload { 
+  	margin: 0;
+  	padding: 0;
+    font-family: "Fira Sans";
+	font-weight: 400;
+	font-size: 15px;
+	color: rgb(74, 84, 93);	
+}
+
+.customfile-filename {
+  width: 212px;
+  height: 39px;
+  padding: 0px 19px 0px 19px;
+  border: 1px rgb(72, 203, 232) solid;
+  border-radius: 4px 0 0 4px;
 
 }
+.customfile-filename:focus { 
+  outline: none;
+}
+
+.customfile-upload {
+  display: inline-block;
+  width: 70px;
+  height: 41px;  
+  border: 1px rgb(72, 203, 232) solid;
+  border-radius: 0 4px 4px 0;
+  margin-left: -1px;
+  cursor: pointer;
+  vertical-align: top;
+  background-color: rgb(72, 203, 232);
+  background-image: url(../img/sprite_by_popup.png);
+  background-repeat: no-repeat;
+  background-position: 11px 2px;
+}
+.customfile-upload::-moz-focus-inner {
+  padding: 0; 
+  border: 0;
+}
+/* конец стиля для инпута загрузки изображения*/
  #description {
 	border: solid rgb(72, 203, 232) 1px;
 	border-radius: 4px;
@@ -205,34 +256,6 @@
  }
  .button_add:active {
  	border-top: 2px solid rgb(104, 123, 143);
- }
- .icon_by_download {
- 	position: absolute;
- 	top: 0px;
- 	right: 0px;
- 	width: 38px;
- 	height: 39px;
- 	border-radius: 0px 4px 4px 0px;
-	background-image: url(../img/sprite_by_popup.png);
- 	background-position: -2px 2px;
- 	border: 1px rgb(72, 203, 232) solid;
- 	cursor: pointer;
-
- }
- .box_by_download {
-	background-color: #48CBE8;
-	position: relative;
-	border-radius: 4px;
- }
- #picture_by_project {
- 	width: 239px;
- 	display: inline-block;
-  	height: 39px;
-	border: 1px rgb(72, 203, 232) solid;
-	border-radius: 4px 0px 0px 4px;
-	background-color: rgb(255, 255, 255);
-	padding: 0px 19px 0px 19px;
-	left: 0px;
  }
  .server-mes{
 	border-radius: 4px;
