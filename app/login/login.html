@@ -1,4 +1,4 @@
--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru-RU">
 <head>
 	<meta charset="UTF-8">
@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
 	<link rel="stylesheet" href="css/login.css">
 	<link rel="stylesheet" href="../bower/qtip2/jquery.qtip.css">
+	<script src="../js/modernizr.custom.93849.js"></script>
 </head>
 <body>
 <div class="conteiner">	
@@ -35,10 +36,19 @@
 </div>
 	<footer class="footer-page">
 		<hr class="gradient-hr">
-		<div class="copyright">
-			<span class="copyright-sting">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его.</span>
+		<div class="wrapper_by_footer">
+			<div class="lock">
+				<a href="login/login.html" class="link-login"><span class="hidden-text">Авторизация<span class="hidden-text"></span></span></a>
+			</div>
+			<div class="copyright">
+				<span class="copyright-sting">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его.</span>
+			</div>
 		</div>
-	<script type="text/javascript" src="../bower/jquery/jquery.js"></script>
+	</footer>
+	<script type="text/javascript" src="../bower/jquery/dist/jquery.js"></script>
+	<!--[if lt IE 9]>
+    <script src="http://yastatic.net/jquery/1.9.0/jquery.min.js"></script>
+	<![endif]-->
 	<script type="text/javascript" src="../js/main.js"></script>
 	<script type="text/javascript" SRC="js/login.js"></script>
 	<script type="text/javascript" src="../bower/qtip2/jquery.qtip.js"></script>

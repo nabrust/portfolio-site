@@ -10,22 +10,24 @@
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
 	<link rel="stylesheet" href="../login/css/login.css">
 	<link rel="stylesheet" type="text/css" href="css/my_work.css">
-	<link rel="stylesheet" href="css/jquery.customFile.css">
+	<script src="../js/modernizr.custom.93849.js"></script>
 </head>
 <body>
 <div class="conteiner">
 	<!--HEADER-->
 	<header class="header-page">
-		<div class="logo">
-			<a href="../index.html" class="link-logo"> <img src="../img/logo_loftschool.png" alt="Логотип LoftSchool"><span class="hidden-text">Логотип LS</span> </a>
-		</div>
-		<div class="social-block">
-			<ul class="socal-list">
-				<li class="block-for-socal-link"><a href="http://vk.com/id259535060" class="socal-link vk"> <span class="hidden-text">ВКонтакте</span></a></li>
-				<li class="block-for-socal-link"><a href="#" class="socal-link tw"> <span class="hidden-text">Twitter</span></a></li>
-				<li class="block-for-socal-link"><a href="#" class="socal-link fb"> <span class="hidden-text">Facebook</span></a></li>
-				<li class="block-for-socal-link"><a href="https://github.com/nabrust" class="socal-link gh"> <span class="hidden-text">GitHub</span></a></li>
-			</ul>
+		<div class="wrapper_bu_header">
+			<div class="logo">
+				<a href="../index.html" class="link-logo"> <img src="../img/logo_loftschool.png" alt="Логотип LoftSchool"><span class="hidden-text">Логотип LS</span> </a>
+			</div>
+			<div class="social-block">
+				<ul class="socal-list">
+					<li class="block-for-socal-link"><a href="http://vk.com/id259535060" class="socal-link vk"> <span class="hidden-text">ВКонтакте</span></a></li>
+					<li class="block-for-socal-link"><a href="#" class="socal-link tw"> <span class="hidden-text">Twitter</span></a></li>
+					<li class="block-for-socal-link"><a href="#" class="socal-link fb"> <span class="hidden-text">Facebook</span></a></li>
+					<li class="block-for-socal-link"><a href="https://github.com/nabrust" class="socal-link gh"> <span class="hidden-text">GitHub</span></a></li>
+				</ul>
+			</div>
 		</div>
 		<hr class="gradient-hr">
 	</header>
@@ -47,26 +49,22 @@
 				</header>
 				<div class="contacts">
 					<div class="contacts-string block-mail">
-						<div class="mail">	
+						<div class="mail">
+							
 						</div>
-						<dispanv class="text-contacts-string">
-							nabrusufa@gmail.com
-						</dispanv>
+						<a href="mailto:nabrusufa@gmail.com" class="text-contacts-string">nabrusufa@gmail.com</a>
 					</div>
 					<div class="contacts-string block-telefon">
-						<div class="telefon">	
+						<div class="telefon">
+							
 						</div>
-						<span class="text-contacts-string">
-							+7 987 58 56 923
-						</span>
+						<a href="tel:+79875856923" class="text-contacts-string">+7 987 58 56 923</a>
 					</div>
 					<div class="contacts-string block-skype">
 						<div class="skype">
 							
 						</div>
-						<span class="text-contacts-string">
-							rustam8397
-						</span>
+						<a href="skype:rustam8397" class="text-contacts-string">rustam8397</a>
 					</div>
 				</div>
 			</div>
@@ -76,7 +74,8 @@
 				<h1 class="string-by-header">Мои работы</h1>
 			</header>
 			<div class="box_by_content clearfix">
-				<biv class="box_by_site_info">
+				<div class="wrap_myproject">
+				
 					<div class="box_by_img_site">
 						<img src="img/site_1.png" alt="site_1" class="site_image">
 						<div class="background_hover clear fix">
@@ -91,8 +90,10 @@
 							Информация о проекте 1 превью 2 строки... .
 						</span>
 					</div>
-				</biv>
-				<biv class="box_by_site_info">
+				
+				</div>
+				<div class="wrap_myproject">
+				
 					<div class="box_by_img_site">
 						<img src="img/site_2.png" alt="site_2" class="site_image">
 						<div class="background_hover">
@@ -107,8 +108,10 @@
 							Информация о проекте 2 превью 2 строки... .
 						</span>
 					</div>
-				</biv>
-				<biv class="box_by_site_info">
+				
+				</div>
+				<div class="wrap_myproject">
+				
 					<div class="box_by_img_site">
 						<img src="img/site_3.png" alt="site_3" class="site_image">
 						<div class="background_hover">
@@ -123,8 +126,10 @@
 							Информация о проекте 3 превью 2 строки... .
 						</span>
 					</div>
-				</biv>
-				<biv class="box_by_site_info">
+				
+				</div>
+				<div class="wrap_myproject">
+				
 					<div class="box_by_img_site">
 						<img src="img/site_4.png" alt="site_4" class="site_image">
 						<div class="background_hover">
@@ -139,7 +144,8 @@
 							Информация о проекте 4 превью 2 строки... .
 						</span>
 					</div>
-				</biv>
+				
+				</div>
 				<div class="box_by_new_site">
 					<a href="#" id="link_add_site">
 					<div class="conainer_by_box_new_site">
@@ -193,18 +199,24 @@
 </div>
 	<footer class="footer-page">
 		<hr class="gradient-hr">
-		<div class="lock">
-			<a href="../login/login.html" class="link-login"><span class="hidden-text">Авторизация</span></a>
-		</div>
-		<div class="copyright">
+		<div class="wrapper_by_footer">
+			<div class="lock">
+				<a href="../login/login.html" class="link-login"><span class="hidden-text">Авторизация<span class="hidden-text"></span></span></a>
+			</div>
+			<div class="copyright">
 				<span class="copyright-sting">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его.</span>
+			</div>
 		</div>
-	<script type="text/javascript" src="../bower/jquery/jquery.js"></script>
+	</footer>
+	<script type="text/javascript" src="../bower/jquery/dist/jquery.js"></script>
+	<!--[if lt IE 9]>
+    	<script src="http://yastatic.net/jquery/1.9.0/jquery.min.js"></script>
+	<![endif]-->
 	<script type="text/javascript" src="../js/main.js"></script>
 	<script type="text/javascript" src="js/my_work.js"></script>
 	<script src="../bower/bpopup/jquery.bpopup.js"></script>
 	<script src="js/new_project.js"></script>
 	<script src="js/jquery.customFile.js"></script>
-
+	
 </body>
 </html>
