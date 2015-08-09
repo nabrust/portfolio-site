@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="../fonts/fira/fira.css">
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
 	<link rel="stylesheet" href="../login/css/login.css">
+	<link rel="stylesheet" href="../bower/qtip2/jquery.qtip.css">
 	<link rel="stylesheet" type="text/css" href="css/my_work.css">
 	<script src="../js/modernizr.custom.93849.js"></script>
 </head>
@@ -170,25 +171,25 @@
 				<label class="label_by_input_popup" for="name_by_project" >
 					Название проекта
 				</label>
-				<input type="text" id="name_by_project" name="name_by_project" placeholder="Введите название">
+				<input type="text" id="name_by_project" name="name_by_project" placeholder="Введите название" qtip-content="Вы не ввели имя" position="left">
 			</div>
 			<div class="box_by_input_popup clearfix">
 				<label class="label_by_input_popup" for="picture_by_project">
 					Картинка проекта
 				</label>
-				<input type="file" id="picture_by_project" name="picture_by_project" placeholder="Загрузите изображение" multiple>
+				<input type="file" id="picture_by_project" name="picture_by_project" placeholder="Загрузите изображение">
 			</div>
 			<div class="box_by_input_popup">
 				<label class="label_by_input_popup" for="URL_by_project">
 					URL проекта
 				</label>
-				<input type="text" id="URL_by_project" name="URL_by_project" placeholder="Добавьте ссылку">
+				<input type="text" id="URL_by_project" name="URL_by_project" placeholder="Добавьте ссылку" qtip-content="Вы не указали ссылку" position="left">
 			</div>
 			<div class="box_by_input_popup">
 				<label class="label_by_input_popup" for="description">
 					Описание проекта
 				</label>
-				<textarea name="description" id="description" placeholder="Пара слов о проекте"></textarea>
+				<textarea name="description" id="description" placeholder="Пара слов о проекте" qtip-content="Опишите проект" position="left"></textarea>
 			</div>
 			<div class="box_by_button_popup">
 					<button type="submit" class="button_add">Добавить</button>
@@ -215,8 +216,9 @@
 	<script type="text/javascript" src="../js/main.js"></script>
 	<script type="text/javascript" src="js/my_work.js"></script>
 	<script src="../bower/bpopup/jquery.bpopup.js"></script>
-	<script src="js/new_project.js"></script>
 	<script src="js/jquery.customFile.js"></script>
-	
+	<script src="../bower/qtip2/jquery.qtip.min.js"></script>
+	<script src="../js/validation.js"></script>
+	<script src="js/new_project.js"></script>
 </body>
 </html>

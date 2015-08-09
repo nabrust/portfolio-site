@@ -10,7 +10,7 @@
 
       var $file = $(this).addClass('customfile'), // оригинальный файловый input
           $wrap = $('<div class="customfile-wrap">'),
-          $input = $('<input type="text" class="customfile-filename" />'),
+          $input = $('<input type="text" qtip-content="Добавьте картинку" position="left" class="customfile-filename"/>'),
           // Кнопка которая не работает в IE
           $button = $('<button type="button" class="customfile-upload"></button>'),
           // Хак для IE

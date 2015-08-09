@@ -165,3 +165,22 @@ input:-ms-input-placeholder, #text_message:-ms-input-placeholder {
 	margin-top: 20px;
 	overflow: hidden;
 }
+
+.qtip-myclass {
+	background-color: rgb(249, 126, 118);
+	border-color: rgb(249, 126, 118);
+	font-family: 'fira_sansbook';
+	color: rgb(255, 255, 255);
+	font-size: 13px;
+  	height: 30px;
+  	box-sizing: border-box;
+  	padding-top: 3px;
+}
+.has-error{
+	background-color: rgb(250, 210, 209) !important;
+	border-color: rgb(249, 126, 118) !important;
+}
+.has-success{
+	background-color: none;
+	border-color: rgb(60, 118, 61);;
+}

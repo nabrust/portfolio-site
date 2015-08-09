@@ -138,6 +138,7 @@
 	border-radius: 6px 6px 0px 0px;
 	background-image: -moz-linear-gradient(top, #48cbe8 0%, #48cbe8 90%, #51daf8 91%,#51daf8 100%);
 	background-image: -webkit-linear-gradient(top, #48cbe8 0%, #48cbe8 90%, #51daf8 91%,#51daf8 100%);
+	background-image: -ms-linear-gradient(top, #48cbe8 0%, #48cbe8 90%, #51daf8 91%,#51daf8 100%);
 	position: relative;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -156,6 +157,9 @@
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+}
+.no-csstransforms .string_by_header, .no-csstransforms .box_by_close {
+	top:15px;
 }
 .box_by_close {
 	width: 25px;
@@ -294,10 +298,30 @@
 	background-color: #fad2d1;
 	border-color: #f97e76;
 	color: #f97e76;	
+	margin-top: 10px;
 }
 .success-mes{
 	background-color: #b8e1ce;
 	border-color: #49bb7b;
 	color: #49bb7b;
+	margin-top: 10px;
+}
+.qtip-myclass {
+	background-color: rgb(249, 126, 118);
+	border-color: rgb(249, 126, 118);
+	font-family: 'fira_sansbook';
+	color: rgb(255, 255, 255);
+	font-size: 13px;
+  	height: 30px;
+  	box-sizing: border-box;
+  	padding-top: 3px;
+}
+.has-error{
+	background-color: rgb(250, 210, 209) !important;
+	border-color: rgb(249, 126, 118) !important;
+}
+.has-success{
+	background-color: none;
+	border-color: rgb(60, 118, 61);;
 }
 /** POPUP END*/
