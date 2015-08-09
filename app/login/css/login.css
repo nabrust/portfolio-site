@@ -101,7 +101,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 .Bycenter {
 	display: table-cell;
     vertical-align: middle;
-    padding-bottom: 81px;
+    padding-bottom: 10px;
 }
 .conteiner {
 	display: table;

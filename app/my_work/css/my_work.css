@@ -341,5 +341,14 @@
 	width: 172px;
 	height: 39px;
 }
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	font-size: 15px;
+	color: rgb(72, 203, 232);	
+}
+.label_by_input_popup {
+	font-family: "Fira Sans";
+	font-size: 23px;
+	color: rgb(149, 154, 168);
+}
 
 /** POPUP END*/
