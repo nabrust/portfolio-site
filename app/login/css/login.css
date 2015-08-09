@@ -24,6 +24,15 @@ html {
 	transform: translateY(-50%) translateX(-50%);
 	
 }
+.no-cssgradients .header_login_form {
+	background-color: #48cbe8;
+}
+.no-csstransforms .text_by_header_login_form {
+	display: inline-block;
+	left: 25%;
+	top: 25%;
+	margin: auto;
+}
 .header_login_form {
 	height: 107px;
 	padding-left: 20px;
@@ -31,6 +40,8 @@ html {
 	padding-top: 10px;
 	border-radius: 6px 6px 0px 0px;
 	background-image: -webkit-linear-gradient(top, #48cbe8 0%, #48cbe8 90%, #51daf8 91%,#51daf8 100%);
+	background-image: -moz-linear-gradient(top, #48cbe8 0%, #48cbe8 90%, #51daf8 91%,#51daf8 100%);
+	background-image: -ms-linear-gradient(top, #48cbe8 0%, #48cbe8 90%, #51daf8 91%,#51daf8 100%);
 	position: relative;
 }
 .container_by_login_form {
@@ -41,7 +52,6 @@ html {
 	border-radius: 4px;
 	padding-bottom: 15px;
 	margin-bottom: 30px;
-	margin-top: 40px;
 }
  #input_bu_login, #input_by_password {
  	display: block;
@@ -51,10 +61,14 @@ html {
 	border-radius: 4px;
 	background-color: rgb(255, 255, 255);
 	margin:auto;
-	padding: 0px 19px 0px 19px;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 30px;
+	color: rgb(72, 203, 232)
+
  }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-	font-size: 17px;
+	font-size: 30px;
 	color: rgb(72, 203, 232);	
 }
  .box_by_button {
@@ -82,4 +96,42 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
  .button_login:active {
  	border-top: 2px solid rgb(104, 123, 143);
  }
+ 
 
+.Bycenter {
+	display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 81px;
+}
+.conteiner {
+	display: table;
+    min-width: 100%;
+    min-height: 100%;
+    margin: auto;
+    height: 100%;
+}
+.qtip-myclass {
+	background-color: rgb(249, 126, 118);
+	border-color: rgb(249, 126, 118);
+	font-family: 'fira_sansbook';
+	color: rgb(255, 255, 255);
+	font-size: 13px;
+  	height: 30px;
+  	box-sizing: border-box;
+  	padding-top: 3px;
+}
+.has-error{
+	background-color: rgb(250, 210, 209) !important;
+	border-color: rgb(249, 126, 118) !important;
+}
+.has-success{
+	background-color: none;
+	border-color: rgb(60, 118, 61);;
+}
+.my-placeholder {
+	color: rgb(72, 203, 232);
+	font-size: 35px;
+	width: 172px;
+	height: 30px
+
+}

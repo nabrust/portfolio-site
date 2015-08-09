@@ -8,30 +8,32 @@
 	<link rel="stylesheet" type="text/css" href="../bower/normalize.css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="../fonts/fira/fira.css">
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
-	<link rel="stylesheet" href="css/login.css">
 	<link rel="stylesheet" href="../bower/qtip2/jquery.qtip.css">
+	<link rel="stylesheet" href="css/login.css">
 	<script src="../js/modernizr.custom.93849.js"></script>
 </head>
 <body>
 <div class="conteiner">	
 	<!--WRAPPER-->
-	<div class="wrapper clearfix">
-		<form class="container_by_login_form clearfix">
+	<div class="Bycenter">
+		<div class="wrapper">
+		<form class="container_by_login_form clearfix" id="formByLogin">
 			<header class="header_login_form">
 				<span class="text_by_header_login_form">Авторизуйтесь</span>
 			</header>
 			<div class="box_by_input">
 				<label class="label_by_box_login" for="login">Логин</label>
-				<input type="text" title="введите логин" id="input_bu_login" name="login" placeholder="Введите логин">
+				<input type="text" title="введите логин" id="input_bu_login" name="login" placeholder="Введите логин" qtip-content="Вы не ввели логин" position="left">
 			</div>
 			<div class="box_by_input clearfix">
 				<label class="label_by_box_input_by_password" for="password">Пароль</label>
-				<input type="text" title="введите пароль" id="input_by_password" name="password" placeholder="Введите пароль">
+				<input type="text" title="введите пароль" id="input_by_password" name="password" placeholder="Введите пароль" qtip-content="Вы не ввели пароль" position="left">
 			</div>
 			<div class="box_by_button">
 				<button type="submit" class="button_login">Войти</button>
 			</div>
 		</form>
+		</div>
 	</div>
 </div>
 	<footer class="footer-page">
@@ -45,12 +47,15 @@
 			</div>
 		</div>
 	</footer>
-	<script type="text/javascript" src="../bower/jquery/dist/jquery.js"></script>
+	
 	<!--[if lt IE 9]>
     <script src="http://yastatic.net/jquery/1.9.0/jquery.min.js"></script>
 	<![endif]-->
+	<script type="text/javascript" src="../bower/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="../js/main.js"></script>
 	<script type="text/javascript" SRC="js/login.js"></script>
 	<script type="text/javascript" src="../bower/qtip2/jquery.qtip.js"></script>
+	<script src="../js/validation.js"></script>
+	<script src="../bower/jquery-placeholder/jquery.placeholder.js"></script>
 </body>
 </html>

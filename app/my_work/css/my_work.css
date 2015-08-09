@@ -184,17 +184,20 @@
 }
 #name_by_project, #URL_by_project, #picture_by_project {
 	display: block;
-	width: 281px;
+	width: 320px;
   	height: 39px;
 	border: 1px rgb(72, 203, 232) solid;
 	border-radius: 4px;
 	background-color: rgb(255, 255, 255);
 	margin:auto;
-	padding: 0px 19px 0px 19px;
-	color: rgb(74, 84, 93);
+	padding: 10px 19px 10px 19px;
+	color: rgb(72, 203, 232);
 	font-size: 15px;
 	font-family: "Fira Sans";
 	font-weight: 400;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+  	-webkit-box-sizing:border-box;
 }
 /*Загрузка изображениея*/
 .customfile-container * {
@@ -204,7 +207,9 @@
 }
 .customfile-wrap {
 	width: 327px;
+	height: 39px;
   	padding: 0;
+  	overflow: hidden;
  }
 
 .customfile-filename,
@@ -215,10 +220,13 @@
 	font-weight: 400;
 	font-size: 15px;
 	color: rgb(74, 84, 93);	
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+  	-webkit-box-sizing:border-box;
 }
 
 .customfile-filename {
-  width: 212px;
+  width: 251px;
   height: 39px;
   padding: 0px 19px 0px 19px;
   border: 1px rgb(72, 203, 232) solid;
@@ -232,7 +240,7 @@
 .customfile-upload {
   display: inline-block;
   width: 70px;
-  height: 41px;  
+  height: 39px;  
   border: 1px rgb(72, 203, 232) solid;
   border-radius: 0 4px 4px 0;
   margin-left: -1px;
@@ -242,6 +250,7 @@
   background-image: url(../img/sprite_by_popup.png);
   background-repeat: no-repeat;
   background-position: 11px 2px;
+
 }
 .customfile-upload::-moz-focus-inner {
   padding: 0; 
@@ -252,12 +261,14 @@
 	border: solid rgb(72, 203, 232) 1px;
 	border-radius: 4px;
 	background-color: rgb(251, 252, 253);
+	color: rgb(72, 203, 232);
 	width: 281px;
 	max-width:281px; 
  	height: 109px;
  	display: block;
  	margin: auto;
  	padding: 10px 19px 0px 19px;
+
 }
 .box_by_button_popup {
 	margin-top: 15px;
@@ -324,4 +335,11 @@
 	background-color: none;
 	border-color: rgb(60, 118, 61);;
 }
+.my-placeholder {
+	color: rgb(72, 203, 232) !important;
+	font-size: 15px;
+	width: 172px;
+	height: 39px;
+}
+
 /** POPUP END*/

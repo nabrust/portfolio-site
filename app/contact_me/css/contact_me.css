@@ -101,7 +101,7 @@
 	border-radius: 3px;
 	padding: 9px;
 	color: rgb(72, 203, 232);
-	font-size: 13px;
+	font-size: 15px;
 	
 }
 .box_by_capcha {
@@ -144,6 +144,7 @@ input:-ms-input-placeholder, #text_message:-ms-input-placeholder {
 	max-width: 400px; 
 	width: 400px;
 	min-height: 181px;
+
 }
 .box_for_input_name, .box_for_input_email, .box_for_input_message, .box_by_button {
 	margin-top: 10px;

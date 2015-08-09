@@ -83,43 +83,43 @@
   };
 
   // Для старых браузеров
-  if ( !multipleSupport ) {
-    $( document ).on('change', 'input.customfile', function() {
+  // if ( !multipleSupport ) {
+  //   $( document ).on('change', 'input.customfile', function() {
 
-      var $this = $(this),
-          // Создайте уникальный ID, чтобы можно было
-          // прикрепить к input-у метку
-          uniqId = 'customfile_'+ (new Date()).getTime(),
-          $wrap = $this.parent(),
+  //     var $this = $(this),
+  //         // Создайте уникальный ID, чтобы можно было
+  //         // прикрепить к input-у метку
+  //         uniqId = 'customfile_'+ (new Date()).getTime(),
+  //         $wrap = $this.parent(),
 
-          // отфильтруем пустые импуты input
-          $inputs = $wrap.siblings().find('.customfile-filename')
-            .filter(function(){ return !this.value }),
+  //         // отфильтруем пустые импуты input
+  //         $inputs = $wrap.siblings().find('.customfile-filename')
+  //           .filter(function(){ return !this.value }),
 
-          $file = $('<input type="file" id="'+ uniqId +'" name="'+ $this.attr('name') +'"/>');
+  //         $file = $('<input type="file" id="'+ uniqId +'" name="'+ $this.attr('name') +'"/>');
 
-      // таймаут 1мс, поэтому запускается после всех прочих событий,
-      // модифицирующих запущенное событие
-      setTimeout(function() {
-        // Добавляем новый input
-        if ( $this.val() ) {
-        //Отметьте пустое поле, чтобы предотвратить
-        // создание новых input-ов при изменении файлов
-          if ( !$inputs.length ) {
-            $wrap.after( $file );
-            $file.customFile();
-          }
-        // Удалить и реорганизуйть input-ы
-        } else {
-          $inputs.parent().remove();
-          // Сдвиньть input так, чтобы он всегда оставался последним в списке
-          $wrap.appendTo( $wrap.parent() );
-          $wrap.find('input').focus();
-        }
-      }, 1);
+  //     // таймаут 1мс, поэтому запускается после всех прочих событий,
+  //     // модифицирующих запущенное событие
+  //     setTimeout(function() {
+  //       // Добавляем новый input
+  //       if ( $this.val() ) {
+  //       //Отметьте пустое поле, чтобы предотвратить
+  //       // создание новых input-ов при изменении файлов
+  //         if ( !$inputs.length ) {
+  //           $wrap.after( $file );
+  //           $file.customFile();
+  //         }
+  //       // Удалить и реорганизуйть input-ы
+  //       } else {
+  //         $inputs.parent().remove();
+  //         // Сдвиньть input так, чтобы он всегда оставался последним в списке
+  //         $wrap.appendTo( $wrap.parent() );
+  //         $wrap.find('input').focus();
+  //       }
+  //     }, 1);
 
-    });
-  }
+  //   });
+  // }
 
 }( jQuery ));
 

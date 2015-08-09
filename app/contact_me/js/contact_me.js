@@ -11,7 +11,6 @@ var contactMe = (function () {
 	};
 
 	var _submitForm = function(ev){
-		console.log('Отправка формы выполнена');
 		ev.preventDefault();
 
 		var form = $(this),
@@ -21,7 +20,6 @@ var contactMe = (function () {
 	};
 
 	var _ajaxForm = function (form, url) {
-		console.log('ajax запрос, но с проверкой!');
 
 		if (!validation.validateForm(form)) return false;
 		// если false то код ниже не сработает
