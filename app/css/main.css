@@ -271,9 +271,6 @@ a {
 	float: right;
 	margin-left: 5px;
 }
-.string-skills {
-	
-}
 .skill-name {
 	display: inline-block;
 	background-image: -webkit-linear-gradient(bottom, #2e8ca2 0%, #2e8ca2 50%, #3ba8c0 51%,#3ba8c0 100%);
@@ -286,6 +283,9 @@ a {
 	margin: 6px 0px 0px 2px;
 	border-radius: 3px;
 	color: #ffffff;
+}
+.no-cssgradients .skill-name {
+	background-color: #3ba8c0; 
 }
 .main-info {
 	padding-bottom: 26px;

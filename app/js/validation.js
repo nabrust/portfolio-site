@@ -7,9 +7,12 @@ var validation = (function () {
 	//Прослушка событий
 	var _setUpListners = function (){
 		$('form').on('keydown', '.has-error', _removeErorr);
+		$('form').on('click', '.customfile-upload', customfileRemoveErorr);
 		$('form').on('reset', _clearForm);
 		};
-
+	var customfileRemoveErorr = function(){
+		$('.customfile-filename').removeClass('has-error').trigger('hideTooltip');
+	};
 	var _removeErorr = function () {
 		$(this).removeClass('has-error');
 		};
